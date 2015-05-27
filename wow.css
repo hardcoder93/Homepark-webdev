@@ -1,0 +1,185 @@
+
+body { 
+	font-family: Century; 
+	background-size: auto;
+	margin :0;
+	background:#333;
+} 
+header {
+	margin: 0;
+}
+.container {
+	padding-top:70px;
+	padding-bottom:3px;
+	width:100%;
+	height:90%;
+}
+#img {
+	width:49.5%;
+	height:100%;
+	float:left;
+	background : url("http://www.pampangahouses.com/wp-content/uploads/2012/08/leighton-front-view.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+	margin-right:10px;
+}
+#img2 {
+	width:49.5%;
+	height:100%;
+	float:left;
+	background : url("http://www.pampangahouses.com/wp-content/uploads/2012/08/leighton-front-view.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+}
+#img2 img {
+	width: 75%;
+	height:100%;
+}
+.column1 {
+	width:75%;
+	height:20%;
+	margin:0;
+	padding:0;
+	margin-left: 21%;
+	margin-top: 2px;
+	padding-bottom: 1px;
+	margin-bottom:2px;
+}
+.tile1 {
+	width:15%;
+	height:100%;
+	background:#EBFF33;
+	margin:0;
+	margin-right:5px;
+	padding:0;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+
+}
+.tile2 {
+	width:15%;
+	height:100%;
+	background:#A0FB71;
+	margin : 0;
+	margin-right:5px;
+	padding:0;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+}
+.tile3 {
+	width:15%;
+	height:100%;
+	background:#58F8AB; 
+	padding:0;
+	margin:0;
+	margin-right:5px;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+}
+.tile4 {
+	width:15%;
+	height:100%;
+	background-color: #12F6E9; 
+	padding:0;
+	margin:0;
+	margin-right:5px;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #222;
+}
+.tile5 {
+	width:15%;
+	height:100%;
+	background:#2F8F75; 
+	padding:0;
+	margin:0;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #222;
+}
+.showOnHover {
+	color : #FFF;
+	font-size: 40px;
+	margin-left :3px;
+	text-align: center;
+}
+.tile1 .showOnHover {
+	display:none;
+}
+.tile1:hover .showOnHover {
+	display:inline-block;
+}
+.tile1:hover {
+	box-shadow: 5px 5px 20px black;
+
+}
+.tile2 .showOnHover {
+	display:none;
+}
+.tile2:hover .showOnHover {
+	display:inline-block;
+}
+.tile2:hover {
+	box-shadow: 5px 5px 20px black;
+}
+.tile3 .showOnHover {
+	display:none;
+}
+.tile3:hover .showOnHover {
+	display:inline-block;
+}
+.tile3:hover {
+	box-shadow: 5px 5px 20px black;
+}
+.tile4 .showOnHover {
+	display:none;
+}
+.tile4:hover .showOnHover {
+	display:inline-block;
+}
+.tile4:hover {
+	box-shadow: 5px 5px 20px black;
+}
+.tile5 .showOnHover {
+	display:none;
+}
+.tile5:hover .showOnHover {
+	display:inline-block;
+}
+.tile5:hover {
+	box-shadow: 5px 5px 20px black;
+}
+span {
+	color : #BBB;
+	font-size: 40px;
+	margin-top:5px;
+	font-family: 'Tangerine', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.foot{
+	text-align: right;
+	font-size: 50%;
+	color: #999;
+	margin:0;
+}
+footer {
+	margin :0;
+	width : 100%;
+	height : 5%;
+	background: #222;
+	clear:both;
+	border-top: 1px solid #555;
+}
